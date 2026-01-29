@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+/* Global background color */
+body {
+  @apply bg-amber-200;
+}
+.bg-btn {
+  @apply bg-amber-500;
+}

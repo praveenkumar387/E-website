@@ -5,6 +5,8 @@ import About from './Routes/About'
 import Contact from './Routes/Contact'
 import Nav from './Navbar/Nav'
 import Login from './Routes/Login'
+import Sign from './Routes/Sign'
+import Createnewac from './Routes/Createnewac'
 
 const App = () => {
   return (
@@ -12,7 +14,10 @@ const App = () => {
       <Nav />
       <Routes>
          <Route path='/' element={<Login/>} />
-        {/* <Route path="/" element={<Home />} />
+         <Route path='/Sign' element={<Sign/>}/>
+         <Route path='/createnewac' element={<Createnewac/>} />
+         <Route path="/home" element={<Home />} />
+        {/* 
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path='/' element={<Login/>} /> */}
