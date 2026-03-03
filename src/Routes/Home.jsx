@@ -87,7 +87,7 @@ const Home = () => {
   {/* RIGHT – Image Section */}
   <div className="w-full md:w-1/2 flex justify-center md:justify-end">
     <img
-      src="/images/four.png"
+      src="/images/stabery.png"
       alt="homeimage"
       className="w-104 md:w-106 h-auto"
     />
