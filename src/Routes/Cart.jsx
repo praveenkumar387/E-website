@@ -11,7 +11,7 @@ const Cart = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <button onClick={() => navigate("/home")} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">back</button>
+      <button onClick={() => navigate("/home")} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors m-3"> back to home</button>
       <h1 className='text-4xl bg-red-500 font-bold text-center mt-10 py-6 text-white shadow-lg'>
         Your Cart
       </h1>

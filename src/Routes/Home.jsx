@@ -17,7 +17,7 @@ const Home = () => {
   const navigate = useNavigate()
 
   return (
-    <>
+    <section id='home'>
     
     <nav className="bg-yellow-400 p-4 fixed top-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
@@ -53,7 +53,7 @@ const Home = () => {
           }`}
         >
           <button onClick={()=>navigate('/cart')} ><CiShoppingCart /></button>
-          <li className="p-2 text-black hover:text-white cursor-pointer">HOME</li>
+          <li className="p-2 text-black hover:text-white cursor-pointer"><a href="#home">HOME</a></li>
           <li className="p-2 text-black hover:text-white cursor-pointer"><a href="#product">product</a></li>
           <li className="p-2 text-black hover:text-white cursor-pointer"><a href="#About">About</a></li>
           
@@ -98,7 +98,7 @@ const Home = () => {
 <About/>
 
 
-    </>
+    </section>
   );
 };
 
